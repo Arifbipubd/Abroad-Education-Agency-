@@ -2191,7 +2191,9 @@ textarea:-ms-input-placeholder {
 
 .ptb--60 {
   padding: 60px 0 !important; }
-
+.ptrbl--breadcrumb{
+  padding: 120px 0 60px 0;
+}
 .plr--60 {
   padding: 0 60px !important; }
 
