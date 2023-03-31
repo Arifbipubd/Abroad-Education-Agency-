@@ -21119,7 +21119,7 @@ Gallery Item
   justify-content: space-between;
 }
 .course-details-content .edu-course-tab .nav-item {
-  margin: 0 40px;
+  margin: 0 25px;
 }
 @media only screen and (max-width: 1199px) {
   .course-details-content .edu-course-tab .nav-item {
