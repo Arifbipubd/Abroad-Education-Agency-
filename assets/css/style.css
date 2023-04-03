@@ -8387,7 +8387,7 @@ body.sal-disabled [data-sal|="flip"] {
   margin: 0;
   padding: 0;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .mainmenu-nav .mainmenu > li > a {
   color: var(--color-heading);
@@ -9735,6 +9735,7 @@ button.edu-btn.btn-border {
   left: -190px;
 }
 .eduvibe-home-four-about .shape-image.shape-image-2 {
+  display: none;
   top: -59px;
   right: -297px;
 }
@@ -9782,6 +9783,7 @@ button.edu-btn.btn-border {
   right: -175px;
 }
 .eduvibe-home-four-courses .shape-image.shape-image-3 {
+  display: none;
   bottom: 30px;
   right: -230px;
 }
@@ -19538,6 +19540,7 @@ Gallery Item
 }
 @media only screen and (max-width: 575px) {
   .banner-style-4 .banner-image {
+    margin-top: 40px;
     padding: 20px;
   }
 }
