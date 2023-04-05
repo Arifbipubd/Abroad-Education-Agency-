@@ -22451,3 +22451,16 @@ Gallery Item
 }
 
 /*# sourceMappingURL=../maps/style.css.map */
+
+/*Header Dropdown*/
+.headerDropdown {
+  padding: 0;
+  min-width: 210px;
+  transform: translate(-150px, 52px);
+  border-radius: 10px;
+  border: none;
+}
+.headerDropdown li {
+  margin: 0px;
+  padding: 5px 10px;
+}
