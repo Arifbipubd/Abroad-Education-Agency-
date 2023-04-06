@@ -22455,12 +22455,35 @@ Gallery Item
 /*Header Dropdown*/
 .headerDropdown {
   padding: 0;
-  min-width: 210px;
-  transform: translate(-150px, 52px);
-  border-radius: 10px;
+  min-width: 230px;
+  transform: translate(-160px, 105px);
+  border-radius: 5px;
   border: none;
+  transition: 0.3s;
+  background-color: var(--color-white) !important;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.04);
+  border-bottom: 3px solid var(--color-primary);
 }
 .headerDropdown li {
   margin: 0px;
-  padding: 5px 10px;
+  padding: 5px 15px;
+  line-height: 2;
+  color: var(--color-heading) !important;
+  font-weight: 500 !important;
+}
+
+.headerDropdown .nameDiv{
+  border-radius: 5px 5px 0 0;
+ padding: 15px 15px;
+ background: var(--color-primary);
+}
+
+.headerDropdown .nameDiv .name{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.headerDropdown .nameDiv .email{
+  font-size: 16px;
+  font-weight: 400;
 }
