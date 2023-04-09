@@ -22487,3 +22487,18 @@ Gallery Item
   font-size: 16px;
   font-weight: 400;
 }
+
+
+/********Price Btn**********/
+
+.priceBtn{
+  /* border: 1px solid var(--color-primary) !important; */
+  border-radius: 0 0 20px 20px !important;
+  background-color: #f5f5f5 !important;
+  color: #231F40 !important;
+}
+
+.priceBtn:Hover{
+  background-color: var(--color-primary) !important;
+  color: #ffff !important;
+}
