@@ -2205,7 +2205,7 @@ textarea:-ms-input-placeholder {
 }
 
 .edu-section-gap {
-  padding: 130px 0 !important;
+  padding: 30px 0 !important;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .edu-section-gap {
@@ -22472,33 +22472,32 @@ Gallery Item
   font-weight: 500 !important;
 }
 
-.headerDropdown .nameDiv{
+.headerDropdown .nameDiv {
   border-radius: 5px 5px 0 0;
- padding: 15px 15px;
- background: var(--color-primary);
+  padding: 15px 15px;
+  background: var(--color-primary);
 }
 
-.headerDropdown .nameDiv .name{
+.headerDropdown .nameDiv .name {
   font-size: 24px;
   font-weight: 600;
 }
 
-.headerDropdown .nameDiv .email{
+.headerDropdown .nameDiv .email {
   font-size: 16px;
   font-weight: 400;
 }
 
-
 /********Price Btn**********/
 
-.priceBtn{
-  border: 1px solid var(--color-primary) !important;
-  border-radius:5px !important;
+.priceBtn {
+  border: 2px solid var(--color-primary) !important;
+  border-radius: 5px !important;
   background-color: transparent !important;
-  color: #231F40 !important;
+  color: #231f40 !important;
 }
 
-.priceBtn:Hover{
+.priceBtn:hover {
   background-color: var(--color-primary) !important;
   color: #ffff !important;
 }
