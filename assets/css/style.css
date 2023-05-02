@@ -22520,7 +22520,7 @@ Gallery Item
 .std-profile .nav-link {
   color: #98a6c0 !important;
   border: 0 !important;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 30px;
 }
@@ -22528,26 +22528,34 @@ Gallery Item
   background-color: var(--color-primary);
   color: white !important;
   border-radius: 7px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 30px;
 }
 
-.std-leftTab {
-  background-color: #f9f9f9;
+.std-profile .nav-tabs .nav-link:hover {
+  background-color: var(--color-primary);
+  color: white !important;
   border-radius: 7px;
 }
-.std-leftTab nav {
-  padding: 5% 1% 5% 1%;
-}
 
-.studentProfileImg {
+.std-leftTab {
+  background-color: #f5f5f5;
+  border-radius: 7px;
+  padding: 10px;
+}
+/* .std-leftTab nav {
+  padding: 5% 1% 5% 1%;
+} */
+
+.ProfileImg {
   height: 150px;
   width: 150px;
 }
-.studentProfileImg img {
+.ProfileImg img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 
 .studentProfileDetailsTopRight button {
@@ -22558,150 +22566,17 @@ Gallery Item
   color: rgba(255, 255, 255, 0.918);
 }
 
-.studentProfileDesc {
-  border: 0.5px solid #e9edf3;
-  box-sizing: border-box;
-  border-radius: 7px;
+.profileEdt {
+  background-color: var(--color-primary);
 }
 
-.studentProfileDesc p {
-  line-height: 30px;
+.profileChangePassHd {
+  color: #6f6b80 !important;
 }
 
-.paymentHistoryInput input {
-  padding: 0 20px;
-  height: 35px;
-  border: 0.5px solid #98a6c0;
-  border-radius: 7px;
-  outline: none;
-}
-.paymentHistoryInput .input1 {
-  width: 149px;
-}
-
-.paymentHistoryList .table > :not(caption) > * > * {
-  padding: 10px 0px 15px 0px !important;
-}
-
-.pass-hU {
-  position: relative;
-}
-.pass-hU i {
-  position: absolute;
-  top: 30%;
-  right: 5%;
-}
-.pass-hU p {
-  font-size: 14px;
-  font-weight: 300px;
-  color: var(--color-primary);
-  position: absolute;
-  top: 0;
-  right: 6%;
-  cursor: pointer;
-}
-.pass-hU .form-control {
-  background-color: #e9edf3;
-}
-
-.saved-method p {
-  font-size: 12px;
-  font-weight: 500;
-}
-.saved-method .box-1 {
-  border: 1px solid var(--color-primary);
-  border-radius: 10px;
-}
-.saved-method .box-1inner {
-  margin: 15px;
-}
-.saved-method .box-1inner p {
-  margin: 0;
-}
-.box-1img {
-  height: 28px;
-  width: 44px;
-}
-.box-1img img {
-  height: 100%;
-  width: 100%;
-}
-
-.content2 {
-  display: none;
-}
-.content3 {
-  display: none;
-}
-
-.phoneHideContent {
-  display: none;
-}
-.emailHideContent {
-  display: none;
-}
-
-/***** Profile Hide**************/
-.pcontent2 {
-  display: none;
-}
-
-.block-profile .file-upload {
-  background-color: #f6f7f9;
-  border-radius: 10px;
-  width: 60%;
-  margin: 0 auto;
-  padding: 7px;
-  position: relative;
-}
-.block-profile .file-upload i {
-  font-size: 40px;
-}
-.block-profile .file-upload-content {
-  display: none;
-  text-align: center;
-}
-
-.block-profile .file-upload-input {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  outline: none;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.block-profile .image-upload-wrap {
-  margin: 20px;
-  border: 2px dashed #98a6c0;
-  position: relative;
-}
-
-.block-profile .drag-text {
-  text-align: center;
-  margin: 5%;
-}
-
-.block-profile .file-upload-image {
-  max-height: 200px;
-  max-width: 200px;
-  margin: auto;
-  padding: 20px;
-}
-
-.block-profile .remove-image {
-  width: 100%;
-  margin: 0;
-  color: #fff;
-  background: #cccbd7;
-  border: none;
+.profileSubmit {
+  background-color: var(--color-primary);
   border-radius: 5px;
-  transition: all 0.2s ease;
-  outline: none;
-  text-transform: uppercase;
-  font-weight: 700;
 }
 
 /************** Profile Responsive Start*************/
