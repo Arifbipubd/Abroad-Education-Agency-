@@ -364,9 +364,7 @@
                                 <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="" />
                               </div>
                               <div class="col-lg-9 col-md-9 studentProfileDetails ms-2 mt-2">
-                                <div>
-
-                                
+                              <div id="profileDetails">
                                 <div class="
                                       studentProfileDetailsTop
                                       d-flex
@@ -377,7 +375,7 @@
                                     <h5 class="cl-pm fw-bold mb-0">Elan Kesava</h5>
                                     <small class="color-span">Dhaka,Bangladesh</small>
                                   </div>
-                                  <div class="studentProfileDetailsTopRight">
+                                  <div class="studentProfileDetailsTopRight" id="editbtn">
                                     <a href="#" class="  ">
                                       <button class="color-white profileEdt px-4 border-0 d-flex align-items-center" >
                                         <i class="ri-edit-fill me-1"></i> Edit
@@ -401,7 +399,56 @@
                                     </div>
                                   </div>
                                 </div>
+                              </div>
+                              <div id="profileEdit">
+                              <form action="">
+                                <div class="
+                                      studentProfileDetailsTop
+                                      d-flex
+                                      flex-wrap
+                                      justify-content-between
+                                    ">
+                                  <div class="studentProfileDetailsTopLeft mb-3">
+                                    <div class="input-box mb--10">
+                                      <label class=" text-dark fw-bold mb-2 ">Name</label>
+                                      <input class=" py-2 " type="text" placeholder="Name" />
+                                    </div>
+                                    <div class="input-box mb--10">
+                                      <label class=" text-dark fw-bold mb-2 ">Address</label>
+                                      <input class=" py-2 " type="text" placeholder="Address" />
+                                    </div>
+                                  </div>
+                                  <div class="studentProfileDetailsTopRight" id="cancelbtn">
+                                    <a href="#" class="  ">
+                                      <button class="color-white profileEdt px-4 border-0 d-flex align-items-center" >
+                                       <i class="ri-close-line me-1"></i> Cancel
+                                      </button>
+                                    </a>
+                                  </div>
                                 </div>
+                                <div class="studentProfileDetailsBottom">
+                                  <div class="row mt-3">
+                                    <div class="col-lg-6 col-md-6 col-6 color-span">
+                                      <div class="input-box mb--10">
+                                      <label class=" text-dark fw-bold mb-2 ">Email</label>
+                                      <input class=" py-2 " type="email" placeholder="Email" />
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-6 color-span">
+                                      <div class="input-box mb--10">
+                                      <label class=" text-dark fw-bold mb-2 ">Contact</label>
+                                      <input class=" py-2 " type="number" placeholder="Contact Number" />
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class=" d-flex justify-content-center  my-2">
+                                  <button type="submit" class="color-white profileSubmit px-4 py-3 border-0 d-flex align-items-center">
+                                    Save Changes
+                                  </button>
+                                </div>
+                              </form>
+                              </div>
                               </div>
                             </div>
                             <div class="col-lg-12 px-3 py-4 mt-4">
@@ -668,5 +715,21 @@
     <script src="assets/js/vendor/tilt.jquery.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#editbtn").click(function() {
+          $("#profileDetails").hide();
+          $("#profileEdit").show();
+        });
+        
+        $("#cancelbtn").click(function() {
+          $("#profileEdit").hide();
+          $("#profileDetails").show();
+        });
+});
+    </script>
+
+
   </body>
 </html>

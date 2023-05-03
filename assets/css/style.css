@@ -22578,6 +22578,9 @@ Gallery Item
   background-color: var(--color-primary);
   border-radius: 5px;
 }
+#profileEdit {
+  display: none;
+}
 
 /************** Profile Responsive Start*************/
 
