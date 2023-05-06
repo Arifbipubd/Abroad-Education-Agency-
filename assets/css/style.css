@@ -921,6 +921,10 @@ kbd {
   background: var(--color-primary);
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 /*=====================
 All Extend Here
 =======================*/
@@ -22597,3 +22601,63 @@ Gallery Item
 }
 
 /************** Profile Responsive End*************/
+
+/*************** My documents********************/
+.myDocumentsTable {
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px;
+}
+.myDocumentsTable table {
+  margin-bottom: 0;
+}
+.myDocumentsTable table thead {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.myDocumentsTable .paidStatus {
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #0192674f;
+  color: green;
+}
+
+.myDocumentsTable .UnpaidStatus {
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgba(255, 81, 0, 0.301);
+  color: rgb(209, 56, 9);
+}
+
+.myDocumentsTable .InprogressStatus {
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgba(179, 255, 0, 0.308);
+  color: rgb(221, 165, 12);
+}
+
+.tableActionView {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #01923d4f;
+  color: green;
+}
+
+.tableActionDelete {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.199);
+  color: red;
+}
+
+.myDocumentsSearch input {
+  outline: none;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+}
