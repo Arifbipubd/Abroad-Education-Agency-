@@ -22661,3 +22661,22 @@ Gallery Item
   border: 0.5px solid gray;
   border-radius: 10px;
 }
+
+#myDocumentsForm {
+  display: none;
+}
+
+#myDocumentsForm .dateInput {
+  outline: none;
+  border-radius: 10px;
+  border: var(--border-width) solid var(--color-border);
+}
+
+#myDocumentsForm .fileInput {
+  border-radius: 10px;
+  border: var(--border-width) solid var(--color-border);
+}
+
+#cancelButton {
+  display: none;
+}
