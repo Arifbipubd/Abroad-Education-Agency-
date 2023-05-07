@@ -276,10 +276,10 @@
                         <i class="ri-article-line me-3"></i>
                         My Documents</a>
 
-                        <a class="nav-link me-3 d-flex" href="#">
+                        <a class="nav-link me-3 d-flex" href="appliedUniversities.html">
                         <i class="ri-file-list-3-fill me-3"></i>
                         Applied Universities</a>
-                        <a class="nav-link me-3 d-flex" href="#">
+                        <a class="nav-link me-3 d-flex" href="bookedTours.html">
                         <i class="ri-user-heart-fill me-3"></i>
                         Booked Tours</a>
 
@@ -327,7 +327,7 @@
                             <i class="ri-article-line me-3"></i>
                             Profile</a>
 
-                        <a class="nav-link me-3 d-flex" href="#">
+                        <a class="nav-link me-3 d-flex" href="appliedUniversities.html">
                             <i class="ri-file-list-3-fill me-3"></i>
                             Applied Universities</a>
                         <a class="nav-link me-3 d-flex" href="#">
@@ -335,7 +335,7 @@
                             Guidelines
                         </a>
 
-                        <a class="nav-link me-3 d-flex" href="#">
+                        <a class="nav-link me-3 d-flex" href="bookedTours.html">
                              <i class="ri-user-heart-fill me-3"></i>
                             Booked Tours</a>
 
@@ -362,9 +362,14 @@
                             <div class="row">
                                 <div class=" d-flex justify-content-end mb-4 ">
                                     <div class="studentProfileDetailsTopRight">
-                                    <a href="#" class="  ">
-                                      <button id="addButton" class="color-white profileEdt px-4 border-0 d-flex align-items-center" >
-                                       <i class="ri-add-fill me-1" id="toggleIcon"></i>Add Documents
+                                    <a onclick="myDocumentsShowhide()" id="addButton" href="#" class="  ">
+                                      <button  class="color-white profileEdt px-4 border-0 d-flex align-items-center" >
+                                       <i class="ri-add-fill me-1"></i>Add Documents
+                                      </button>
+                                    </a>
+                                    <a onclick="myDocumentsShowhide()" id="cancelButton">
+                                      <button  class="color-white profileEdt px-4 border-0 d-flex align-items-center" >
+                                      <i class="ri-close-fill me-1"></i>Cancel
                                       </button>
                                     </a>
                                   </div>
@@ -400,7 +405,7 @@
                                 </div>
                                 <div class=" d-flex justify-content-between ">
                                     <div>
-                                        <h6>All Applied Universities</h6>
+                                        <h6>All Documents</h6>
                                     </div>
                                     <div class=" myDocumentsSearch ">
                                         <input onkeyup="searchFunction()" id="search" class="" type="search" placeholder=" search ">
@@ -741,22 +746,30 @@
         }
         }
 
-      $(document).ready(function() {
-        $("#addButton").click(function() {
-          $("#myDocumentsForm").toggle();
-          var buttonText = $(this).text();
-          var buttonIcon = $(this).find('i');
-          if (buttonText === "Add Documents") {
-            buttonText = "Cancel";
-            buttonIcon.removeClass("ri-add-fill").addClass("ri-close-line");
-          } else {
-            buttonText = "Add Documents";
-            buttonIcon.removeClass("ri-close-line").addClass("ri-add-fill");
-          }
-          console.log(buttonIcon);
-          $(this).text(buttonText);
-        });
-      });
+        // function myDocumentsShowhide(){
+        //   let documentDiv = document.getElementById('myDocumentsForm');
+        //   let addBtn = document.getElementById('addButton');
+        //   let cancelBtn = document.getElementById('cancelButton');
+
+        //   addBtn.addEventListener("click" , () => {
+        //     documentDiv.style.display = 'block';
+        //     cancelBtn.style.display = 'block';
+        //     addBtn.style.display = 'none';
+        //   })
+        // }
+
+        function myDocumentsShowhide() {
+        let documentDiv = document.getElementById('myDocumentsForm');
+        if (documentDiv.style.display == "block") {
+          documentDiv.style.display = "none";
+          document.getElementById("addButton").style.display = "block";
+          document.getElementById("cancelButton").style.display = "none";
+        } else {
+          documentDiv.style.display = "block";
+          document.getElementById("cancelButton").style.display = "flex";
+          document.getElementById("addButton").style.display = "none";
+        }
+      }
 
     </script>
 
