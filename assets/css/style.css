@@ -22649,6 +22649,7 @@ Gallery Item
 }
 .tableActionView:hover {
   background-color: #01923d4f;
+  transition: 0.5s ease-in-out;
 }
 
 .tableActionDelete {
@@ -22660,6 +22661,7 @@ Gallery Item
 }
 .tableActionDelete:hover {
   background-color: rgba(255, 0, 0, 0.199);
+  transition: 0.5s ease-in-out;
 }
 
 .myDocumentsSearch input {
