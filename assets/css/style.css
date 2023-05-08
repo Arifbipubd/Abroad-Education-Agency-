@@ -22610,6 +22610,7 @@ Gallery Item
 }
 .myDocumentsTable table {
   margin-bottom: 0;
+  font-size: 14px;
 }
 .myDocumentsTable table thead {
   background-color: var(--color-primary);
