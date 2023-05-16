@@ -7146,10 +7146,12 @@ textarea:-ms-input-placeholder {
 .edu-breadcrumb-area .shape-image.shape-image-3 {
   top: -24px;
   right: -90px;
+  display: none;
 }
 .edu-breadcrumb-area .shape-image.shape-image-4 {
   bottom: -39px;
   right: -220px;
+  display: none;
 }
 .edu-breadcrumb-area .shape-image.shape-image-5 {
   bottom: -28px;
@@ -9717,6 +9719,7 @@ button.edu-btn.btn-border {
 .eduvibe-home-four-service .shape-image.shape-image-2 {
   top: 12px;
   right: -180px;
+  display: none;
 }
 .eduvibe-home-four-service .shape-image.shape-image-3 {
   bottom: -38px;
@@ -9746,6 +9749,7 @@ button.edu-btn.btn-border {
 .eduvibe-home-four-about .shape-image.shape-image-3 {
   bottom: 10px;
   right: -185px;
+  display: none;
 }
 
 .eduvibe-home-four-about .shape-dot-wrapper .shape {
@@ -9785,6 +9789,7 @@ button.edu-btn.btn-border {
 .eduvibe-home-four-courses .shape-image.shape-image-2 {
   top: 38px;
   right: -175px;
+  display: none;
 }
 .eduvibe-home-four-courses .shape-image.shape-image-3 {
   display: none;
@@ -9883,10 +9888,12 @@ button.edu-btn.btn-border {
 .eduvibe-home-four-testimonial .shape-image.shape-image-2 {
   top: 0px;
   right: -200px;
+  display: none;
 }
 .eduvibe-home-four-testimonial .shape-image.shape-image-3 {
   bottom: 0px;
   right: -121px;
+  display: none;
 }
 
 /*---------------------------
@@ -10040,10 +10047,12 @@ button.edu-btn.btn-border {
 .eduvibe-contact-us .shape-image.shape-image-2 {
   top: 95px;
   right: -59px;
+  display: none;
 }
 .eduvibe-contact-us .shape-image.shape-image-3 {
   bottom: 79px;
   right: -197px;
+  display: none;
 }
 
 /*---------------------------
@@ -10344,10 +10353,12 @@ button.edu-btn.btn-border {
 .eduvibe-about-us-one-service .shape-image.shape-image-2 {
   top: 125px;
   right: -44px;
+  display: none;
 }
 .eduvibe-about-us-one-service .shape-image.shape-image-3 {
   bottom: 13px;
   right: -200px;
+  display: none;
 }
 
 /*---------------------------
@@ -10471,6 +10482,7 @@ button.edu-btn.btn-border {
   bottom: 90px;
   right: -120px;
   animation: eduvibe-rotate-x 7s infinite linear;
+  display: none;
 }
 
 /*---------------------------
@@ -22322,6 +22334,7 @@ Gallery Item
 .eduvibe-footer-one .shape-image.shape-image-2 {
   bottom: -83px;
   right: -200px;
+  display: none;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
   .eduvibe-footer-one .shape-image.shape-image-2 {
@@ -22692,3 +22705,5 @@ Gallery Item
 #cancelButton {
   display: none;
 }
+
+/***************Responsive****************/
