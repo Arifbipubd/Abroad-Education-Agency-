@@ -187,7 +187,7 @@
       </div>
       <!-- End Search Popup  -->
       <div
-        class="edu-breadcrumb-area breadcrumb-style-1 ptrbl--breadcrumb ptb_md--40  bg-image"
+        class="edu-breadcrumb-area breadcrumb-style-1 ptrbl--breadcrumb bg-image"
       >
         <div class="container eduvibe-animated-shape">
           <div class="row">
@@ -261,26 +261,33 @@
       <div class="edu-course-area edu-section-gap bg-color-white">
         <div class="header-style-2">
           <div class="row g-5 align-items-center">
-            <div class="col-lg-6 col-md-6 col-12">
-              <div class="short-by">
-                <p>Showing <span>1-16</span> Of <span>42</span> Results</p>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-12">
-              <div class="edu-search-box-wrapper text-start text-md-end">
-                <div class="edu-search-box">
-                  <form action="#">
-                    <input type="text" placeholder="Search Course..." />
-                    <button class="search-button">
-                      <i class="icon-search-line"></i>
-                    </button>
-                  </form>
+            <div class="col-lg-6 col-md-6 col-8 w-100">
+              <div
+                class="d-flex gap-2 justify-content-between countrySearchDiv"
+              >
+                <div class="edu-search-box-wrapper text-start">
+                  <div class="edu-search-box">
+                    <form action="#">
+                      <input type="text" placeholder="Search Course..." />
+                      <button class="search-button">
+                        <i class="icon-search-line"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-end filterHamburgerDiv">
+                  <div class="filterHamburger" onclick="filterToggle()">
+                    <i class="ri-filter-2-fill"></i>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="row g-5 mt--10">
-            <div class="col-12 col-sm-12 col-xl-3 col-md-6">
+            <div
+              class="col-12 col-md-12 col-lg-3 col-xl-3 col-md-6"
+              id="filterDiv"
+            >
               <div class="edu-course-area bg-color-white">
                 <div class="">
                   <div class="row g-5">
@@ -549,11 +556,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-12 col-xl-9 col-md-6">
+            <div class="col-12 col-md-12 col-lg-9 col-xl-9 col-md-6">
               <div class="row">
                 <!-- Start Single Card  -->
                 <div
-                  class="col-12 col-sm-12 col-xl-4 col-md-6 mb-3"
+                  class="col-12 col-md-6 col-lg-6 col-xl-4 col-md-6 mb-3"
                   data-sal-delay="150"
                   data-sal="slide-up"
                   data-sal-duration="800"
@@ -615,7 +622,7 @@
 
                 <!-- Start Single Card  -->
                 <div
-                  class="col-12 col-sm-12 col-xl-4 col-md-6 mb-3"
+                  class="col-12 col-md-6 col-lg-6 col-xl-4 col-md-6 mb-3"
                   data-sal-delay="200"
                   data-sal="slide-up"
                   data-sal-duration="800"
@@ -674,7 +681,7 @@
 
                 <!-- Start Single Card  -->
                 <div
-                  class="col-12 col-sm-12 col-xl-4 col-md-6 mb-3"
+                  class="col-12 col-md-6 col-lg-6 col-xl-4 col-md-6 mb-3"
                   data-sal-delay="250"
                   data-sal="slide-up"
                   data-sal-duration="800"
@@ -736,7 +743,7 @@
 
                 <!-- Start Single Card  -->
                 <div
-                  class="col-12 col-sm-12 col-xl-4 col-md-6 mb-3"
+                  class="col-12 col-md-6 col-lg-6 col-xl-4 col-md-6 mb-3"
                   data-sal-delay="300"
                   data-sal="slide-up"
                   data-sal-duration="800"
@@ -771,68 +778,6 @@
                           <a href="#"
                             >Growing Together to Create Lifelong Learners</a
                           >
-                        </h6>
-                        <ul class="edu-meta meta-01">
-                          <li><i class="icon-time-line"></i>13h 20m 20s</li>
-                          <li><i class="icon-group-line"></i>86 Students</li>
-                        </ul>
-                        <div class="card-bottom">
-                          <div class="read-more-btn">
-                            <a
-                              class="btn-transparent"
-                              href="course-details.html"
-                              >Enroll Now<i
-                                class="icon-arrow-right-line-right"
-                              ></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Card  -->
-
-                <!-- Start Single Card  -->
-                <div
-                  class="col-12 col-sm-12 col-xl-4 col-md-6mb-3"
-                  data-sal-delay="350"
-                  data-sal="slide-up"
-                  data-sal-duration="800"
-                >
-                  <div class="edu-card card-type-5 radius-small">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="course-details.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/course/course-01/course-06.jpg"
-                            alt="Course Thumb"
-                          />
-                        </a>
-                        <div class="top-position status-group left-top">
-                          <span
-                            class="eduvibe-status status-01 bg-secondary-color"
-                            >30% Off</span
-                          >
-                          <span
-                            class="eduvibe-status status-01 bg-primary-color"
-                            >Basic</span
-                          >
-                        </div>
-                        <div class="wishlist-top-right">
-                          <button class="wishlist-btn">
-                            <i class="icon-Heart"></i>
-                          </button>
-                        </div>
-                      </div>
-                      <div class="content">
-                        <div class="price-list price-style-03">
-                          <div class="price current-price">$18.00</div>
-                          <div class="price old-price">$20.00</div>
-                        </div>
-                        <h6 class="title">
-                          <a href="#">Great Things Come From a Small Package</a>
                         </h6>
                         <ul class="edu-meta meta-01">
                           <li><i class="icon-time-line"></i>13h 20m 20s</li>
@@ -1104,5 +1049,29 @@
     <script src="assets/js/vendor/tilt.jquery.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+      function filterToggle() {
+        var div = document.getElementById("filterDiv");
+        var windowWidth = window.innerWidth;
+        if (windowWidth < 1000) {
+          if (div.style.display === "none") {
+            div.style.display = "block";
+          } else {
+            div.style.display = "none";
+          }
+        }
+      }
+
+      // Hide the div if the window width is less than 1000 pixels
+      window.addEventListener("resize", function () {
+        var div = document.getElementById("filterDiv");
+        if (window.innerWidth < 1000) {
+          div.style.display = "none";
+        } else {
+          div.style.display = "block";
+        }
+      });
+    </script>
   </body>
 </html>

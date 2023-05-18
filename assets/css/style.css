@@ -22707,3 +22707,31 @@ Gallery Item
 }
 
 /***************Responsive****************/
+
+/************Mobile Hamburger Filter***********/
+.filterHamburger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9edf3;
+  height: 60px;
+  width: 60px;
+  font-size: 35px;
+  border-radius: 5px;
+  color: var(--color-primary);
+}
+
+@media (min-width: 1000px) {
+  .filterHamburgerDiv {
+    display: none !important;
+  }
+  .countrySearchDiv {
+    justify-content: end !important;
+  }
+}
+
+/* @media (max-width: 1000px) {
+  #filterDiv {
+    display: none;
+  }
+} */
