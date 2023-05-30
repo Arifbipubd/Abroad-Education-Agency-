@@ -22725,13 +22725,17 @@ Gallery Item
   .filterHamburgerDiv {
     display: none !important;
   }
+  #filterDiv {
+    display: none;
+  }
   .countrySearchDiv {
     justify-content: end !important;
   }
 }
 
-/* @media (max-width: 1000px) {
-  #filterDiv {
-    display: none;
+@media (max-width: 768px) {
+  .profilePageHeader {
+    flex-direction: column;
+    margin-bottom: 10px;
   }
-} */
+}
