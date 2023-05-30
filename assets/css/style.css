@@ -22719,15 +22719,14 @@ Gallery Item
   font-size: 35px;
   border-radius: 5px;
   color: var(--color-primary);
+  cursor: pointer;
 }
 
 @media (min-width: 1000px) {
   .filterHamburgerDiv {
     display: none !important;
   }
-  #filterDiv {
-    display: none;
-  }
+
   .countrySearchDiv {
     justify-content: end !important;
   }
@@ -22737,5 +22736,8 @@ Gallery Item
   .profilePageHeader {
     flex-direction: column;
     margin-bottom: 10px;
+  }
+  #filterDiv {
+    display: none;
   }
 }
