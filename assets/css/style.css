@@ -22745,25 +22745,24 @@ Gallery Item
 /***********University Apply****************/
 
 .uniApplydiv {
-  background-color: #f5f5f5;
-  padding: 30px;
-  margin: 40px 0;
+  /* background-color: #f5f5f5; */
+  padding: 0px 30px;
+  margin: 10px 0;
 }
 
 .applyInput-box input,
 select {
-  height: 52px;
+  height: 50px;
   background: white !important;
   padding: 8px 15px;
 }
 
 .infoBox {
   margin: 30px 0;
-  background: #525fe1;
+  background: #f5f5f5;
   opacity: 0.8;
   border-radius: 10px;
   padding: 20px;
-  color: white !important;
 }
 
 .infoBox ul {
@@ -22771,8 +22770,8 @@ select {
 }
 
 .infoBox li {
-  color: white;
-  font-size: 18px;
+  color: black;
+  font-size: 16px;
   display: flex;
   align-items: center;
 }
@@ -22828,13 +22827,13 @@ input:checked + .slider:before {
   font-size: 18px;
   font-weight: 700;
 }
-.switchDiv{
+.switchDiv {
   display: flex;
   align-items: center;
 }
 
-@media(max-width: 499px){
-  .switchDiv{
+@media (max-width: 499px) {
+  .switchDiv {
     flex-direction: column;
   }
 }
