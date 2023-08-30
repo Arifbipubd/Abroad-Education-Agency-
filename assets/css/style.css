@@ -22883,7 +22883,36 @@ td {
 }
 
 @media print {
+  body {
+    align-content: flex-start;
+  }
   .no-print {
     display: none !important;
   }
+}
+
+.stuffAction {
+  border: 1px solid #dee2e6;
+  height: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.stuffAction input[type="text"] {
+  height: 50px;
+}
+
+.stuffAction input[type="file"] {
+  height: 100% !important;
+  border: var(--border-width) solid var(--color-border);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+#CompleteDesc {
+  display: none;
+}
+
+#ApprovedDesc {
+  display: none;
 }
